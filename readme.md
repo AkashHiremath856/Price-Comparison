@@ -1,6 +1,6 @@
 # 🛍️ Django Price Comparison App
 
-<img src="">
+<img src="https://github.com/AkashHiremath856/Price-Comparison/blob/main/media/ss.png?raw=true">
 
 A Django-based web application that allows users to search for electronic gadgets and compares prices across major e-commerce platforms including **Amazon**, **Flipkart**, **Gadget Snow**, **Reliance Digital**, and **Croma**. The app also stores search results into a database for **historical tracking** and **later reference**.
 
