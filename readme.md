@@ -34,7 +34,7 @@ A Django-based web application that allows users to search for electronic gadget
 
    ```bash
    git clone https://github.com/AkashHiremath856/Price-Comparison.git
-   cd django-price-compare
+   cd Price-Comparison
 
 
 2. **Install dependencies**:
