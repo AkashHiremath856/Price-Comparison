@@ -21,7 +21,7 @@ def register(request):
         re = request.POST
         rf = request.FILES
         user = User.objects.create_user(username=re['username'], first_name=re['first_name'], last_name=re['last_name'], password=re['password'])
-        register = Register.objects.create(user=user, address=re['address'], mobile=re['mobile'], image=rf['image'] if not None else None)
+        register = Register.objects.create(user=user, address=re['address'], mobile=re['mobile'], image=rf['image'] if  rf else None)
         messages.success(request, "Registration Successful")
         return redirect('signin')
     return render(request, "signup.html", locals())
