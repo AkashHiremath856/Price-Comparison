@@ -33,7 +33,7 @@ A Django-based web application that allows users to search for electronic gadget
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/django-price-compare.git
+   git clone https://github.com/AkashHiremath856/Price-Comparison.git
    cd django-price-compare
 
 
