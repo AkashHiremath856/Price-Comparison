@@ -2,7 +2,7 @@
 
 <img src="https://github.com/AkashHiremath856/Price-Comparison/blob/main/media/ss.png?raw=true">
 
-A Django-based web application that allows users to search for electronic gadgets and compares prices across major e-commerce platforms including **Amazon**, **Flipkart**, **Gadget Snow**, **Reliance Digital**, and **Croma**. The app also stores search results into a database for **historical tracking** and **later reference**.
+A Django-based web application that allows users to search for electronic gadgets and compares prices across major e-commerce platforms including **Amazon**, **Flipkart**, **Gadgets Nnow**, **Reliance Digital**, and **Croma**. The app also stores search results into a database for **historical tracking** and **later reference**.
 
 ## 🚀 Features
 
@@ -56,7 +56,7 @@ A Django-based web application that allows users to search for electronic gadget
    The backend uses **Selenium** to automate a headless browser that performs real-time scraping from the following retailers:
    - 🛒 **Amazon**
    - 🛒 **Flipkart**
-   - 🛒 **Gadget Snow**
+   - 🛒 **Gadgets Now**
    - 🛒 **Reliance Digital**
    - 🛒 **Croma**
 
