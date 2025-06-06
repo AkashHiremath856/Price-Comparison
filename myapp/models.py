@@ -1,6 +1,7 @@
 from re import T
 from django.db import models
 from  django.contrib.auth.models import User
+from django.utils import timezone
 
 # Create your models here.
 class Register(models.Model):
@@ -16,7 +17,7 @@ class Register(models.Model):
 class History(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     product = models.TextField(null=True, default={'object':[]}, blank=True)
-    created = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(default=timezone.now)
 
     def __str__(self) -> str:
         return self.user.username

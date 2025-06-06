@@ -106,7 +106,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+USE_TZ = True  # Enables timezone-aware datetimes
+
+TIME_ZONE = 'Asia/Kolkata'  # Local timezone for display
 
 USE_I18N = True
 

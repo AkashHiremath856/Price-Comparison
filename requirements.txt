@@ -25,4 +25,4 @@ tzdata
 urllib3
 wsproto
 selenium
-selenium-stealth  
+selenium-stealth 

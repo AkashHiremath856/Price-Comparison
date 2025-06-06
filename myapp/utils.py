@@ -212,7 +212,7 @@ def reliance(name):
         
         driver.get(reliance_link)
 
-        WebDriverWait(driver,10).until(
+        WebDriverWait(driver,15).until(
                         EC.presence_of_element_located((By.CSS_SELECTOR, "div.content"))
                     )
 
