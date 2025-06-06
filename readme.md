@@ -10,7 +10,7 @@ A Django-based web application that allows users to search for electronic gadget
 - 🛒 **Retailers Included**:
   - Amazon
   - Flipkart
-  - Gadget Snow
+  - Gadgets Now
   - Reliance Digital
   - Croma
 - 💾 **Data Persistence**: Stores product title, price, and source store in a database.
@@ -24,7 +24,7 @@ A Django-based web application that allows users to search for electronic gadget
 - **Backend**: Django (Python)
 - **Frontend**: HTML, CSS (Django Templates)
 - **Database**: SQLite (default), can be upgraded to PostgreSQL
-- **Web Scraping/APIs**: BeautifulSoup, Requests, or platform-specific APIs (if available)
+- **Web Scraping/APIs**: BeautifulSoup, Requests, Selenium
 
 ---
 
